@@ -7,6 +7,16 @@ This repository contains scripts related to manuscript "Adaptive Structural Vari
 
 ## Content
 
+- **DerivedAlleleFreq_bootstrap.R:** A R script to do the 1,000 bootstrap of derived allele frequencies classfied by different annotations.
+      
+      # Usage (R) : 
+      
+      Options:
+      
+      Input: Files with constent collums ("chrom", "start","end", "SVname", "ancestorAlleleCount",  "derivedAlleleCount", "derivedAlleleFreq", "type")
+      
+      Output: Plots of devied allele spectrum with error bars
+
 - **process_maf.py:** An inhouse script was developed to process the Multiple Alignment Format (MAF) file and get the details of alignments of inversions and flanking regions.
       Method detail: Ten NHPs were retained for lineage tracing for inversions between humans and rhesus macaques, including chimpanzees (panTro6), gorillas (gorGor6), orangutans (ponAbe3), gibbons (nomLeu3), crab-eating macaques (macFas5), baboons (papAnu4), green monkeys (chlSab2), marmosets (calJac4), squirrel monkeys (saiBol1) and rhesus macaques (rheMac10Plus). We first downloaded the Multiple Alignment Format (MAF) file derived from syntenic net alignment for each NHP from the UCSC Genome Browser except for crab-eating macaques and rhesus macaques. For crab-eating macaques and rhesus macaques, the MAF file was not available in the UCSC Genome Browser, so we manually generated it using netToAxt (https://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/netToAxt). 
       
