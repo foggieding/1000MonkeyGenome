@@ -54,7 +54,7 @@ This repository contains scripts related to manuscript "Adaptive Structural Vari
       
         --intersect2: intermediate file for alignments of inversion downstream regions
       
-        --processMaf: 
+        --processMaf: details of processed MAF alignment
       
 - **determine_inv.py:** Determine inversion status for the output of process_maf.py
 
